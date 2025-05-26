@@ -55,7 +55,7 @@ scanf("%d", &pontostur1);
 
 //Aqui começamos a digitar as informações da segunda carta
 
-printf("\n\nAgora vamos para a segunda carta, repita exatamente o mesmo processo. ");
+printf("\nAgora vamos para a segunda carta, repita exatamente o mesmo processo. ");
 
 printf("\n\nDigite a letra que represente o Estado da segunda carta, use letras maiúsculas de 'A' à 'H' para representá-lo : "); 
 scanf(" %c", &estado2);
@@ -83,15 +83,16 @@ scanf("%d", &pontostur2);
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
     // Exibindo as informações da primeira carta
 
-    printf("\nConfira abaixo os dados da primeira carta cadastrada: ");
+printf("\nConfira abaixo os dados da primeira carta cadastrada: ");
 
-    printf("\n\n Estado : %c \n Código da carta: %s \n Nome da cidade: %s \n População: %d \n Área(km²): %.3f \n PIB: %.3f \n Número de pontos turisticos: %d", estado1, codigo1, cidade1, populacao1, area1, pib1, pontostur1 );
+printf("\n\n Estado : %c \n Código da carta: %s \n Nome da cidade: %s \n População: %d \n Área(km²): %.3f \n PIB: %.3f \n Número de pontos turisticos: %d", estado1, codigo1, cidade1, populacao1, area1, pib1, pontostur1 );
 
     // Exibindo as informações da segunda carta
 
-    printf("\nConfira abaixo os dados da segunda carta cadastrada:");
+printf("\n\nConfira abaixo os dados da segunda carta cadastrada:");
 
 printf("\n\n Estado : %c \n Código da carta: %s \n Nome da cidade: %s \n População: %d \n Área(km²): %.3f \n PIB: %.3f \n Número de pontos turisticos: %d", estado2, codigo2, cidade2, populacao2, area2, pib2, pontostur2 );
 
+printf("\n\n");
     return 0;
 }
