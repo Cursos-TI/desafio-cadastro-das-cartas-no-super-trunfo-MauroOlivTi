@@ -107,28 +107,25 @@ printf("\n\n Estado: %c \n Código da carta: %s \n Nome da cidade: %s \n Popula�
 
 printf("\n\nA seguir compararemos os valores de cada carta para ver qual venceu: ");
 
-//Por alguma razao o codigo abaixo funciona no vscode mas nao funciona aqui no github
-
-/*printf("\n\n População: Carta %d venceu", (int) pow(2,populacao2 > populacao1));
+printf("\n\n População: Carta %d venceu", (int) pow(2,populacao2 > populacao1));
 printf("\n Área: Carta %d venceu", (int) pow(2, area2 > area1));
 printf("\n PIB: Carta %d venceu", (int) pow(2, pib2 > pib1));
 printf("\n Pontos Turísticos: Carta %d venceu", (int) pow(2, pontostur2 > pontostur1));
 printf("\n Densidade Populacional: Carta %d venceu", (int) pow(2, densidadepop2 < densidadepop1));
 printf("\n PIB per Capita: Carta %d venceu", (int) pow(2, pibcapita2 > pibcapita1));
 printf("\n Super Poder: Carta %d venceu", (int) pow(2, superpoder2 > superpoder1));
-*/
-
-printf("\n\n População: Carta 1 venceu(%d) ou Carta 2 venceu(%d)", populacao2 < populacao1, populacao2 > populacao1);
-printf("\n Área: Carta 1 venceu(%d) ou Carta 2 venceu(%d)", area2 < area1, area2 > area1);
-printf("\n PIB: Carta 1 venceu(%d) ou Carta 2 venceu(%d)", pib2 < pib1, pib2 > pib1);
-printf("\n Pontos Turísticos: Carta 1 venceu(%d) ou Carta 2 venceu(%d)", pontostur2 < pontostur1, pontostur2 > pontostur1);
-printf("\n Densidade Populacional: Carta 1 venceu(%d) ou Carta 2 venceu(%d)",densidadepop2 > densidadepop1, densidadepop2 < densidadepop1);
-printf("\n PIB per Capita: Carta 1 venceu(%d) ou Carta 2 venceu(%d)", pibcapita2 < pibcapita1, pibcapita2 > pibcapita1);
-printf("\n Super Poder: Carta 1 venceu(%d) ou Carta 2 venceu(%d)", superpoder2 < superpoder1, superpoder2 > superpoder1);
-
-printf("\n\nCaso os valores das suas cartas tenham dado 0, significa um empate.\n");
 
 return 0;
 
 
 }
+
+
+
+
+
+
+
+
+
+
