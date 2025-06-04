@@ -1,4 +1,4 @@
-# Como usar o programa SuperTrunfoMestre
+# Como usar o programa CartasSuperTrunfo
 
 Este programa compara duas cidades em um jogo estilo Super Trunfo.
 
